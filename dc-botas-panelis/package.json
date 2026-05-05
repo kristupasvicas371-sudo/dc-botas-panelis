@@ -1,0 +1,19 @@
+﻿{
+  "name": "dc-botas-panelis",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Discord botas Minecraft serverio valdymui be konsoles",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.4.5",
+    "minecraft-server-util": "^5.4.4",
+    "rcon-client": "^4.2.5"
+  }
+}
